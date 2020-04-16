@@ -1,0 +1,20 @@
+#wlt-DiscussionDeal img {width: 30px}
+#wlt-DiscussionIndex .topic-started-by {line-height: 16px; margin-top: .5em}
+#wlt-DiscussionIndex table.items td .topic-started-by img {width: 16px; vertical-align: middle}
+#wlt-DiscussionIndex .title-link {text-align: right; font-weight: bold}
+#wlt-DiscussionIndex table.items td {vertical-align: top}
+#wlt-DiscussionIndex table.items td a {font-weight: bold; text-decoration: underline;}
+#wlt-DiscussionIndex table.items td img {width: 30px}
+#wlt-DiscussionIndex table.items td:first-child {text-align:left}
+#wlt-DiscussionIndex table.items th#wlt-DiscussionIndex-grid_c0 {text-align: left;}
+#wlt-DiscussionIndex-grid_c1 {width:10%;}
+#wlt-DiscussionIndex-grid_c2 {width:10%}
+#wlt-DiscussionIndex-grid_c3 {width:20%}
+#wlt-DiscussionTopicIndex-list {border-top: 1px solid #ddd; padding: 1em 0;}
+#wlt-DiscussionTopicIndex .post {margin-bottom: 1em;}
+#wlt-DiscussionTopicIndex .message {background: #f7f7f7; margin-left: 70px; padding: .5em .5em 1em .5em; -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px;}
+#wlt-DiscussionTopicIndex .avatar img {width: 50px}
+#wlt-DiscussionTopicIndex .author-and-date {color: #000; font-weight: bold; margin-bottom: .5em;}
+#wlt-DiscussionTopicIndex .author-and-date .author {display: inline; margin-right: 2em;}
+#page #wlt-DiscussionTopicMenu {padding: 0 0 1em 0;}
+#page #wlt-DiscussionTopicMenu li {margin-right: 1em; font-weight: bold;}

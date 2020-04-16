@@ -1,0 +1,172 @@
+#wlt-PaymentCart tr.cartTotal {background-color: #e5e5e5}
+#wlt-PaymentCart tr.cartTotal td {font-weight: bold; font-size: 150%}
+.ui-widget .content {
+	font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.ui-widget-overlay { background: transparent; position: fixed; top: 0; left: 0; }
+#googleMap{width: 100%; height: 180px;}
+#wlt-DealPrint #googleMap{width: 100%; height: 300px;}
+#wlt-DealPrint a:link:after, a:visited:after {content:"";}
+/* language select */
+#wlt-BaseLanguage {position: relative; width: 160px; float: right;}
+#wlt-BaseLanguage .langSelector {position: absolute; width: 160px;}
+#wlt-BaseLanguage .langList {display: none;}
+#wlt-BaseLanguage a {display:block;}
+
+#wlt-DealCoupons table img {width:100px}
+#wlt-DealCoupons-available table img {width:100px}
+#wlt-DealCoupons-used table img {width:100px}
+#wlt-DealCoupons-expired table img {width:100px}
+#wlt-DealCoupons-all table img {width:100px}
+
+#wlt-DealCoupons table td {vertical-align: top;}
+#wlt-DealCoupons-available table td {vertical-align: top;}
+#wlt-DealCoupons-used table td {vertical-align: top;}
+#wlt-DealCoupons-expired table td {vertical-align: top;}
+#wlt-DealCoupons-all table td {vertical-align: top;}
+
+#wlt-DealCoupons-grid_c0 {width:100px}
+#wlt-DealCoupons-available-grid_c0 {width:100px}
+#wlt-DealCoupons-used-grid_c0 {width:100px}
+#wlt-DealCoupons-expired-grid_c0 {width:100px}
+#wlt-DealCoupons-all-grid_c0 {width:100px}
+
+#wlt-DealCoupons table table th, #wlt-DealCoupons table table td {border: 0;}
+#wlt-DealCoupons-available table table th, #wlt-DealCoupons-available table table td {border: 0;}
+#wlt-DealCoupons-used table table th, #wlt-DealCoupons-used table table td {border: 0;}
+#wlt-DealCoupons-expired table table th, #wlt-DealCoupons-expired table table td {border: 0;}
+#wlt-DealCoupons-all table table th, #wlt-DealCoupons-all table table td {border: 0;}
+
+#wlt-DealMediaList .mediaItem {text-align: center; margin-bottom: 1em; width: 225px; height: 250px;}
+#wlt-DealMediaList .mediaItem a {display: block;}
+#wlt-DealMediaList .mediaItem img {max-width: 225px; max-height: 170px;}
+#wlt-DealPrint {border: 2px solid #000; margin: 1em; padding: 1em; font-size: 120%;}
+#wlt-DealPrint table {width: 100%;}
+#wlt-DealPrint h1 {font-size: 160%; font-weight: bold; margin:0;}
+#wlt-DealPrint h3 {
+	font-size: 140%; font-weight: bold;
+	margin: .5em 0 .5em 0;
+	padding: .5em 0 0 0;
+	border-top: 2px solid #ccc;
+}
+#wlt-DealPrint h5 {font-size: 100%; margin :0;}
+.recentDeal {float: left; margin: 0 1em 1.5em 1em; width: 435px;}
+.recentDeal .name {height: 50px; overflow: hidden;}
+.recentDeal .prepend-top {margin-top: 1em}
+.recentDeal .data {width: 150px;}
+.recentDeal .date {font-weight: bold;}
+.recentDeal .content {border: 2px solid #ddd; padding: .5em}
+.recentDeal .image img {height: 170px;}
+.recentDeal .stats {border: 1px solid #ddd; padding: .5em; line-height: 1;}
+.recentDeal .stats .num {font-weight: bold; font-size: 250%}
+.recentDeal .info {border: 1px solid #ddd;}
+.recentDeal .info .price {background-color: #ddd;}
+.recentDeal .info .row {padding: .5em; margin: 0; font-size: 110%;}
+.recentDeal .info label {text-align: left; width: 50%;}
+#wlt-DealSide .sideDeal {border-top: 1px solid #ddd; padding: 1em 0 ;}
+#wlt-DealSide .sideDeal img {width: 80px}
+#page .worklet .worklet.wlt-DealSlideshow-worklet {margin: 0;}
+.wlt-DealSlideshow {float: right}
+.wlt-DealSlideshow .controls {text-align: right}
+.wlt-DealSlideshow .controls a {margin: 0; padding: .5em}
+.wlt-DealSlideshow .controls a.active {border: 1px solid #ccc;}
+/******* SET DEFAULT DIMENSIONS HERE ********/
+.wlt-DealSlideshow div.anythingSlider {
+	width: 780px;
+	height: 364px;
+	margin: 0;
+	padding: 0;
+}
+
+/****** SET COLORS HERE *******/
+/* Default State */
+.wlt-DealSlideshow div.anythingSlider {
+	direction: ltr;
+}
+.wlt-DealSlideshow div.anythingSlider .anythingControls {
+	display: none;
+}
+.wlt-DealSlideshow div.anythingSlider .anythingWindow {
+	border: none;
+}
+
+/* Active State */
+.wlt-DealSlideshow div.anythingSlider.activeSlider .anythingWindow {
+	border-color: #7C9127;
+}
+.wlt-DealSlideshow div.anythingSlider.activeSlider .thumbNav a.cur, .wlt-DealSlideshow div.anythingSlider.activeSlider .thumbNav a {
+	background-color: #7C9127;
+}
+.wlt-DealSlideshow div.anythingSlider .start-stop {
+	background-color: #080;
+	color: #fff;
+}
+.wlt-DealSlideshow div.anythingSlider .start-stop.playing {
+	background-color: #d00;
+}
+.wlt-DealSlideshow div.anythingSlider .start-stop:hover, .wlt-DealSlideshow div.anythingSlider .start-stop.hover {
+	color: #fff;
+}
+#wlt-DealStats .info label {width: 70%; text-align: left}
+#wlt-DealStatus .blink {background-color: #FFF6BF;}
+#wlt-DealSubscribe {display:none}
+.timer{font-weight: bold}
+#wlt-DealView .price {font-size: 200%;}
+#wlt-DealView .buyButton {width: 100px; height: 60px; font-size: 200%; font-weight: bold;}
+#wlt-DealView .unavailable {font-size: 120%}
+#wlt-DealView hr {background: #999; margin: 1em 0 1em 0;}
+#wlt-DealView .span-5 ul {margin:0; padding:0 0 0 1.2em;}
+#wlt-LocationSelect {display:none}
+#wlt-UserMenu .welcome img {width: 30px}
+
+
+
+/* @group Blink */
+
+.blink a {
+    -webkit-animation: blink 2s linear infinite;
+    -moz-animation: blink 2s linear infinite;
+    -ms-animation: blink 2s linear infinite;
+    -o-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    80.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    80.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    80.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    80.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.referralLink a:hover { color: #FFFFFF !important; }
+
+/* @end */
+

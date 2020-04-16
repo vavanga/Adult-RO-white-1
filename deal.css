@@ -1,0 +1,45 @@
+
+#deal-float-bar p {
+    display: inline-block;
+    margin-bottom: -10px !important;
+}
+
+#deal-float-bar {
+    text-align: center;
+    display: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    background-color: white;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #EEE;
+}
+
+.deal-float-bar-item {
+    float: left;
+    height: auto !important;
+    margin: 10px !important;
+}
+
+.deal-float-bar-item .infopret {
+    width: 183px;
+}
+
+.infopret th {
+    text-transform: none !important;
+}
+
+.strike{
+    position: relative;
+}
+
+.strike::after{
+    content: '';
+    border-bottom: 1px solid;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+
+
+#menu2 .site-menu ul { display: none; }
+
+#menu2 .site-menu li {
+    margin-bottom: 10px;
+    padding: 0;
+}
